@@ -2,8 +2,9 @@ This is simple app using node and redis
 nodejs framework is being used with doocker contaniner
 
 
-process exit status code :
+## process exit status code :                          
 |  status code | description                            |
+| ------------ | --------------------------------------:|
 |              |                                        |
 |       0      | we exited everything is okay           |    
 |              |                                        |
@@ -22,8 +23,3 @@ process exit status code :
 |                       |                                                                               |
 |  "unless-stopped"     | Always restart unless we forcibilly stop it                                   |
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
