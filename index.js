@@ -1,6 +1,6 @@
 const express   = require ('express');
 const redis = require ('redis');
-const process = require('process');
+const process = require('process');  //to deliberately crashing the server
 
 const app = express();
 const client = redis.createClient({
@@ -10,7 +10,7 @@ const client = redis.createClient({
 client.set('visits', 0);
 
 app.get('/', (req, res ) => {
-    process.exit(0);
+    process.exit(0);   //exit status code 0 to close the process
     client.get('visits', (err, visits) => {
         res.send('Number of Visits : ' + visits);
         client.set('visits', parseInt(visits) + 1);
@@ -18,7 +18,7 @@ app.get('/', (req, res ) => {
 });
 
 
-app.listen(8083, () => {
+app.listen(83, () => {
     console.log('listening here');
 });
 
