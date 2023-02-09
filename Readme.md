@@ -13,7 +13,7 @@ nodejs framework is being used with doocker contaniner
 
 
 | Restart Policies      |                                                                               |
-| --------------------- | -----------------------------------------------------------------------------:|
+| --------------------- | :-----------------------------------------------------------------------------:|
 |                       |                                                                               |
 |  "No"                 |  Never attempt to restart this conatiner if stops or crashes                  |
 |                       |                                                                               |
