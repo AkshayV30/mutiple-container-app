@@ -1,6 +1,8 @@
 This is simple app using node and redis 
 nodejs framework is being used with doocker contaniner
 
+Furthermore, In this app it just counts number of vists made by user.
+
 
 ## process exit status code :                          
 |  status code | description                            |
