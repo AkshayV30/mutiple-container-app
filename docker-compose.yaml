@@ -3,7 +3,7 @@ services:
   redis-server:
     image: "redis"
   node-app:
-    restart: "always"
+    restart: "on-failure"
     build: .
     ports:
-      - "4040:83" #local machine port : container port
+      - "4040:8081" #local machine port : container port
