@@ -4,7 +4,7 @@ nodejs framework is being used with doocker contaniner
 
 ## process exit status code :                          
 |  status code | description                            |
-| ------------ | --------------------------------------:|
+| ------------ | :------------------------------------- |
 |              |                                        |
 |       0      | we exited everything is okay           |    
 |              |                                        |
