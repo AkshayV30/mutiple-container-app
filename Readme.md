@@ -11,7 +11,8 @@ process exit status code :
 |              |                                        |
 
 
-Restart Policies
+| Restart Policies      |                                                                               |
+| --------------------- | -----------------------------------------------------------------------------:|
 |                       |                                                                               |
 |  "No"                 |  Never attempt to restart this conatiner if stops or crashes                  |
 |                       |                                                                               |
